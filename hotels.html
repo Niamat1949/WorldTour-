@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels List</title>
+    <link rel="shortcut icon" href="./tour (2).png">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./hotels.css">
+</head>
+
+<body id="hotellist">
+    <!--                  XXXX CAROUSEL XXXX                 -->
+
+    <main class="maiin">
+        <div class="returnn d-flex align-items-center justify-content-center fixed-top ">
+            <a href="./index.html">
+                <img src="./tour (2).png" alt="logo" class="logo">
+            </a>
+            <a href="./index.html">WorldTour</a>
+        </div>
+        <section id="s" class="carousel slide carousel-fade">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#s" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#s" data-bs-slide-to="1"></li>
+                <li data-bs-target="#s" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./brendanhotelcanada1.jpg" class="w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5> Our Hotels and Places to Stay</h5>
+                        <p>
+                            Trust us to curate your hotel experience
+                            for comfort, convenience, and satisfaction.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./hotel-nelligancanada1.jpg" class="w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5> Our Hotels and Places to Stay</h5>
+                        <p>
+                            Trust us to curate your hotel experience
+                            for comfort, convenience, and satisfaction.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./mountstephencanada1.jpg" class="w-100">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5> Our Hotels and Places to Stay</h5>
+                        <p>
+                            Trust us to curate your hotel experience
+                            for comfort, convenience, and satisfaction.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="#s" class="carousel-control-next" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+            <a href="#s" class="carousel-control-prev" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+        </section>
+
+    </main>
+    <!--            XXXX END CAROUSEL END XXXX             -->
+
+
+    <!--            XXXX      SECTION     XXXX            -->
+
+    <main class="row container-fluid d-flex flex-wrap">
+        <section class="destinations col-3">
+           <h2 class="my-5 text-center">Informations</h2>            
+<form class="row g-3 my-5">
+                <div class="col-md-12 my-2">
+                    <label for="inputCity" class="form-label">Check-in</label>
+                    <input type="date" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-12 my-2">
+                    <label for="inputCity" class="form-label">Check-out</label>
+                    <input type="date" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-12 my-2">
+                    <label for="inputState" class="form-label">Guests</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>1 room,2 adults,0 children</option>
+                        <option>1 room,1 adult,0 children</option>
+                        <option>1 room,2 adult,2 children</option>
+                    </select>
+                </div>
+                <div>
+                    <button class="btn btn-primary"> Search</button>
+                </div>
+            </form>
+
+                    </section>
+        <section class="hotels col-6 my-5">
+            <div class="row container my-5">
+        <h1 class="mt-5">Let us take the guesswork out of hotel selection: trust our expertise.</h1>
+      <p>Relinquish the burden of hotel selection to us. With our expertise, we ensure an impeccable stay tailored to your needs and preferences. Trust us for a seamless and memorable hotel experience.</p>
+            </div>
+            <div class="row  g-4" id="hoteltrending">
+                <div class="col-6">
+                    <div class="card cardd">
+                        <img src="./brendanhotelcanada1.jpg" class="card-img-top" alt="...">
+                        <p class=" hoteloca card-img-overlay"> ⚲ Géorgie</p>
+                        <div class="card-body">
+                            <p class="card-text">
+                                ⭐ ⭐ ⭐ ⭐
+                            </p>
+                            <h5 class="card-title">Hotel Rosewood</h5>
+                            <div class="d-flex mt-3 ">
+                                <p class="card-text rating">8.6/10 </p>
+                                <p class="card-text mx-4 review">( 652 reviews )</p>
+                            </div>
+                            <p class="card-text from">From <span>$106</span> /night</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card cardd">
+                        <img src="./princeofwalescanada1.jpg" class="card-img-top" alt="...">
+                        <p class=" hoteloca card-img-overlay"> ⚲ Niagara</p>
+                        <div class="card-body">
+                            <p class="card-text">
+                                ⭐ ⭐ ⭐ ⭐
+                            </p>
+                            <h5 class="card-title">Hotel Prince of wales</h5>
+                            <div class="d-flex mt-3 ">
+                                <p class="card-text rating">7.9/10 </p>
+                                <p class="card-text mx-4 review">( 511 reviews )</p>
+                            </div>
+                            <p class="card-text from">From <span>$134</span> /night</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card cardd">
+                        <img src="./pascal-bernardon-mbMG7UBGxno-unsplash.jpg" class="card-img-top" alt="...">
+                        <p class=" hoteloca card-img-overlay"> ⚲ Québec</p>
+                        <div class="card-body">
+                            <p class="card-text">
+                                ⭐ ⭐ ⭐ ⭐
+                            </p>
+                            <h5 class="card-title">Hotel Fairmont</h5>
+                            <div class="d-flex mt-3 ">
+                                <p class="card-text rating">7.2/10 </p>
+                                <p class="card-text mx-4 review">( 676 reviews )</p>
+                            </div>
+                            <p class="card-text from">From <span>$111</span> /night</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card cardd">
+                        <img src="./anthony-v7rnXM06AZQ-unsplash.jpg" class="card-img-top" alt="...">
+                        <p class=" hoteloca card-img-overlay"> ⚲ Otario</p>
+                        <div class="card-body">
+                            <p class="card-text">
+                                ⭐ ⭐ ⭐⭐
+                            </p>
+                            <h5 class="card-title">Hotel Sheraton</h5>
+                            <div class="d-flex mt-3 ">
+                                <p class="card-text rating">8.1/10 </p>
+                                <p class="card-text mx-4 review">( 910 reviews )</p>
+                            </div>
+                            <p class="card-text from">From <span>$126</span> /night</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card cardd">
+                        <img src="./hotel-nelligancanada1.jpg" class="card-img-top" alt="...">
+                        <p class=" hoteloca card-img-overlay"> ⚲ Montreal</p>
+                        <div class="card-body">
+                            <p class="card-text">
+                                ⭐ ⭐ ⭐ ⭐
+                            </p>
+                            <h5 class="card-title">Hotel Nelligan</h5>
+                            <div class="d-flex mt-3 ">
+                                <p class="card-text rating">7.8/10 </p>
+                                <p class="card-text mx-4 review">( 385 reviews )</p>
+                            </div>
+                            <p class="card-text from">From <span>$119</span> /night</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card cardd">
+                        <img src="./hermitagecanada1.jpg" class="card-img-top" alt="...">
+                        <p class=" hoteloca card-img-overlay"> ⚲ Vancouver</p>
+                        <div class="card-body">
+                            <p class="card-text">
+                                ⭐ ⭐ ⭐ ⭐
+                            </p>
+                            <h5 class="card-title">Hotel l'hermitage</h5>
+                            <div class="d-flex mt-3 ">
+                                <p class="card-text rating">7.0/10 </p>
+                                <p class="card-text mx-4  review">( 1048 reviews )</p>
+                            </div>
+                            <p class="card-text from">From <span>$102</span> /night</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card cardd">
+                        <img src="./mountstephencanada1.jpg" class="card-img-top" alt="...">
+                        <p class=" hoteloca card-img-overlay"> ⚲ Montreal</p>
+                        <div class="card-body">
+                            <p class="card-text">
+                                ⭐ ⭐ ⭐ ⭐
+                            </p>
+                            <h5 class="card-title">Hotel Mount Stephan</h5>
+                            <div class="d-flex mt-3 ">
+                                <p class="card-text rating">7.6/10 </p>
+                                <p class="card-text mx-4 review">( 541 reviews )</p>
+                            </div>
+                            <p class="card-text from">From <span>$120</span> /night</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card cardd">
+                        <img src="./bluehorizoncanada1.jpg" class="card-img-top" alt="...">
+                        <p class=" hoteloca card-img-overlay"> ⚲ Vancouver</p>
+                        <div class="card-body">
+                            <p class="card-text">
+                                ⭐ ⭐ ⭐ ⭐
+                            </p>
+                            <h5 class="card-title">Hotel Blue Horizon</h5>
+                            <div class="d-flex mt-3 ">
+                                <p class="card-text rating">7.8/10 </p>
+                                <p class="card-text mx-4  review">( 335 reviews )</p>
+                            </div>
+                            <p class="card-text from">From <span>$167</span> /night</p>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+        <section class="informations col-3">
+            <div>
+                <h2 class="my-5 text-center">Highlights</h2>
+                <ul>
+                    <li>Breakfast included</li>
+                    <li>5 star stay</li>
+                    <li>Traeller rating: Exellent</li>
+                    <li>Good for Luxury stays</li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="my-5 text-center">Inclusions</h2>
+                <ul>
+                    <li>3 nights hotel accommodations
+                        VERNON - 1 Night</li>
+                    <li>Deluxe roundtrip coach transportation from Vancouver with onboard entertainment</li>
+                    <li>3 breakfasts</li>
+                    <li>VIP night out in Banff</li>
+                    <li>Discounted optional activities if you book in advance</li>
+                    <li>All park passes</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+    <!--            XXXX  END SECTION  END   XXXX           -->
+    <!--                   footer                       -->
+
+    <footer class="cont4 container-fluid">
+        <div class="container row">
+            <div class="wtfooter col-3 p-3">
+                <h1 class="h12">WorldTour</h1>
+                <p class="footer">
+                    "Discover the world effortlessly with us -
+                    your gateway to exceptional travel experiences!"
+                </p>
+            </div>
+            <div class="Navigation col-3 p-5 flex-wrap">
+                <h2 class="h2">Return to</h2>
+                <p class="footer"><a href="#home">Home</a></p>
+                <p class="footer"><a href="#hotellist">Hotels</a></p>
+                <p class="footer"><a href="#carlist">Cars</a></p>
+                <!-- <p class="footer"><a href="#flightlist">Flsights</a></p> -->
+            </div>
+            <div class="open col-3 p-5">
+                <h2 class="h2">Opening Hours</h2>
+                <p class="footer">Mon-Tue:9:00-21:00</p>
+                <p class="footer">Fri:8:00-21:00</p>
+                <p class="footer">Sat:9:30-15:00 </p>
+                <!-- <p class="footer">Sunoff </p> -->
+            </div>
+            <div class="Information col-3 p-5">
+                <h2 class="h2">Informations</h2>
+                <p class="footer">[+212]611223344</p>
+                <p class="footer">worldtour@gmail.com</p>
+                <p class="footer">⚲890,xxxx,Ottawa</p>
+            </div>
+        </div>
+
+        <div class="row flex-wrap justify-content-center">
+            <img src="./facebook (2).png" alt="" class="sociaal col-3">
+            <img src="./linkedin (1).png" alt="" class=" sociaal col-3">
+            <img src="./instagram.png" alt="" class=" sociaal col-3">
+            <img src=".//twitter.png" alt="" class="sociaal col-3">
+        </div>
+        <hr>
+        <div class="copyright">
+            <p class="text-center">Copyright ©2024 All rights reserved</p>
+        </div>
+    </footer>
+    <!--               END    footer    END                   -->
+
+    <script src="./bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+
+</body>
+
+</html>
+

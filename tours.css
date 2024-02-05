@@ -1,0 +1,288 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    scroll-behavior: smooth;
+    /* text-align: justify; */
+  }
+
+/*                  XXXX CAROUSEL XXXX                    */
+
+  .carousel img{
+    height: 100vh;
+    filter:brightness(40%) ;
+    /* object-fit:cover; */
+  }
+  .carousel-inner{
+  z-index: -1;
+  }
+  .carousel-caption{
+    z-index:1;
+  }
+ .logo {
+    width: 35px;
+    height: 35px;
+
+  }
+  .logo:hover {
+    transform: scale(1.06);
+    filter: drop-shadow(-5px 2px 1px #a2d2ff);
+  }
+  .returnn {
+    background-color:transparent;
+  
+    height: 45px;
+  }
+  .returnn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .returnn a:hover{
+    text-shadow: 2px 2px 2px #a2d2ff;
+    transform: scale(1.06);
+  }
+  .carousel-inner .carousel-caption{
+    padding-bottom: 240px;
+  }
+  .carousel-inner .carousel-caption h5{
+    font-size: 56px;
+    font-weight: 700;
+  }
+  .carousel-inner .carousel-caption p{
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+/*             XXXX END CAROUSEL END XXXX                 */
+
+
+/*             XXXX      SECTION 1    XXXX                 */
+
+
+    /*        XXXX     destinations    XXXX         */
+.destinations ul{
+list-style: none;
+margin-left: -15px;
+}
+
+.titre{
+  font-size: 19px;
+  font-weight: 600;
+}
+.destinations li{
+  margin: 10px 0px;
+}
+.destinations h2{
+  /* color: #a2d2ff; */
+  font-size: 25px;
+  text-shadow: 2px 2px 5px #888;
+}
+.destinations{
+background-color: #eee;
+  padding-top: 100px;
+  border-right: 2px solid #000;
+  width: 20%;
+  /* box-shadow: 1px 1px 10px #000; */
+}
+/* @media screen and (max-width:480px) {
+  .destinations ul{
+    margin-left: -25px;
+    }
+  .titre{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .destinations h2{
+    font-size: 22px;
+    text-shadow: 2px 2px 5px #888;
+  }
+  .destinations{
+    border-right: 2px solid #fff;
+  }
+} */
+/*             XXXX  END  destinations END XXXX                */
+
+
+/*             XXXX      toursavaible    XXXX                 */
+
+.toursavaible{
+  width: 60%;
+  margin-top: 80px;
+}
+.toursavaible h1{
+  font-weight: 600;
+}
+.toursavaible p{
+  text-align: justify;
+  color: #999;
+}
+.toursavaible span{
+  color: #a2d2ff;
+}
+.cardd{
+  height: 65vh;
+}
+.cardd:hover{
+  border: 2px solid #a2d2ff;
+}
+.cont5 p{
+  color: #999;
+
+}
+.infos img{
+  width: 20px;
+  height: 20px;
+}
+.infos{
+  display: flex;
+  justify-content: space-between;
+}
+.Tprice p{
+  text-shadow: 1px 2px 6px #080;
+  font-weight: 600;
+  color: #070;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.Tprice span{
+  text-shadow: 1px 2px 6px #fff;
+
+  font-weight: 300;
+  /* font-size: 18px; */
+  color: brown;
+  text-decoration: 1.4px line-through;
+}
+.faqs{
+  margin: 30px;
+}
+.faqs p{
+  cursor: pointer;
+  color: #999;
+  font-size: 18px;
+  font-weight: 300;
+}
+.faqs h1{
+  font-size: 50px;
+  font-weight: 700;
+}
+.faqs p:hover{
+  color: #a2d2ff;
+  transform: translate(10px);
+  transition: 0.5s;
+}
+
+
+
+
+
+/*             XXXX  END  toursavaible END XXXX          */
+
+/*             XXXX      informations    XXXX                 */
+.informations h2{
+  font-size: 25px;
+  text-shadow: 2px 2px 5px #888;
+
+  }
+.informations{
+  width: 20%;
+  border-left: 2px solid #000;
+  padding-top: 100px;
+  background-color: #eee;
+}
+.informations li{
+  margin: 10px 0px;
+  color: #444;
+}
+
+
+/*             XXXX  END  informations END XXXX                */
+main{
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+/*             XXXX  END  SECTION 1 END XXXX                */
+  
+/*                           footer                     */
+
+.cont4 {
+  background-color: #a2d2ff;
+}
+.h12 {
+  color: #585757;
+  font-weight: 600;
+}
+.h2 {
+  color: #585757;
+  font-size: 25px;
+  font-weight: 600;
+}
+.sociaal {
+  width: 50px;
+  height: 30px;
+  filter: grayscale(100%);
+}
+.sociaal:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+  transition: 0.5s;
+  filter: grayscale(0%);
+  filter:drop-shadow(2px 1px 2px #158dfc) ;
+
+}
+.copyright p{
+  color: #777;
+  margin: 0px;
+  padding-bottom: 15px;
+}
+.footer{
+  color: #777;
+}
+.footer a{
+  color: #777;
+  text-decoration: none;
+}
+.footer a:hover{
+  text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #carouselExampleInterval img{
+    height: 100% !important;
+} */
+/* .carousel-item{
+    width: 100px;
+    height: 90vh;
+   
+} */

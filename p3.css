@@ -1,0 +1,356 @@
+.menu{
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding-left: 400px;
+    padding-top: 30px;
+}
+.logo {
+    width: 35px;
+    height: 35px;
+
+  }
+  .logo:hover {
+    transform: scale(1.06);
+    filter: drop-shadow(-5px 2px 1px #a2d2ff);
+  }
+  
+
+.returnn {
+    background-color:#000;
+    height: 45px;
+  }
+  .returnn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .returnn a:hover{
+    text-shadow: 2px 2px 2px #a2d2ff;
+    transform: scale(1.06);
+  }  
+.n{
+    padding-left: 20px;
+    font-weight: 700;
+}
+.kal{
+    display: flex;
+}
+.kolxif{
+    display: flex;
+    margin-bottom: 100px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.fut{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 30px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+header{
+    /* background-color: rgb(191, 191, 191); */
+    height: 80px;
+    background-color: #000;
+
+   }
+/* .image{
+    background-image: url("./mohamed-reshad-bvJmFvLNbj0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+} */
+.pygro{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 180px;
+}
+.top{
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(50, 49, 49);
+}
+.vb{
+    padding-top: 12px;
+   margin-left: 710px;
+    border-bottom:3px solid rgb(149, 149, 233);
+    width: 100px;
+}
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.contain{
+    width: 100%;
+    height: 100vh;
+}
+@media(min-aspect-ratio:16/9){
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+.lo{
+    display: flex;
+}
+.kolxid{
+    background-image:url("./1488.jpg");
+    width: 400px;
+    height: 333px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    background-color: #000;
+    
+}
+.pv{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.bb{
+    border-bottom: 3px solid #000;
+    width: 100px;
+    margin-left: 20px;
+}
+.tir{
+    background-image:url("./1588.jpg");
+    width: 400px;
+    height: 333px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #000;
+}
+.japan{
+    background-image:url("./64369.jpg");
+    width: 390px;
+    height: 333px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: #000;
+}
+.kolxig{
+    background-image:url("./isolated-white-van-white-surface.jpg");
+    width: 400px;
+    height: 333px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    background-color: #000;
+}
+.tik{
+    background-image:url("./67356.jpg");
+    width: 400px;
+    height: 333px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #000;
+}
+.japal{
+    background-image:url("./1592.jpg");
+    width: 390px;
+    height: 333px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: #000;
+}
+.FF{
+    display: flex;
+    margin-left: 100px;
+   
+}
+.gla{
+    background-image: url("./mercedes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 223px;
+    background-color: black;
+   
+}
+.la {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.la span{
+    color: gray;
+    
+}
+.cla{
+    padding-left: 80px;
+}
+.clas{
+    padding-left: 180px;
+}
+.lux{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 140px;
+
+}
+.lux span{
+    font-size: 16px;
+}
+.r{
+    padding-right: 40px;
+}
+.D{
+    border-radius: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: red !important;
+    font-weight: 500 !important;
+    
+}
+.luxn{
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 100px;
+}
+.luxn span{
+    font-size: 16px;
+}
+.lum{
+    background-image: url("./lum-lumi--yCpz7acG20-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 223px;
+    background-color: black;
+}
+.aml{
+    background-image: url("./mercedes\ gla.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 223px;
+    background-color: black;
+    background-position: center;
+}
+.mercedesclasse{
+    background-image: url("./amg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 223px;
+    background-color: black;
+    background-position: center;
+}
+.tir p{
+    color: #000000;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.pv p{
+    color: #000000;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.japan p{
+    color: #000000;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+}
+.japal p{
+    color: #000000;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+}
+.tik p{
+    color: #000000;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+}
+.zh{
+    border-bottom: 3px solid rgb(0, 0, 0);
+    width: 100px;
+    margin-left: 20px;
+}
+
+/*                           footer                     */
+
+.cont4 {
+    background-color: #a2d2ff;
+  }
+  .h12 {
+    color: #585757;
+    font-weight: 600;
+  }
+  .h2 {
+    color: #585757;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .sociaal {
+    width: 50px !important;
+    height: 30px !important;
+    filter: grayscale(100%);
+  }
+  .sociaal:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: 0.5s;
+    filter: grayscale(0%);
+    filter:drop-shadow(2px 1px 2px #158dfc) ;
+  
+  }
+  .copyright p{
+    color: #777;
+    margin: 0px;
+    padding-bottom: 15px;
+  }
+  .footer{
+    color: #777;
+  }
+  .footer a{
+    color: #777;
+    text-decoration: none;
+  }
+  .footer a:hover{
+    text-decoration: underline;
+  
+  }
